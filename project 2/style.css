@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hospital{
+    
+}
+nav{
+    color: aliceblue;
+    background-image: url("bg.png");
+    background-size: cover;
+    height: 900px;
+    padding: 5px;
+}
+.zero{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 30px;
+}
+.headname{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.zero a{
+    text-decoration: none;
+    color: #fff;
+}   
+.zero button{
+    padding: 5px;
+    height: 50px;
+    width: 150px;
+    padding:15px;
+    background-color: rgb(0, 183, 255);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+
+}
+.navsec{
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+.one h1{
+    font-size: 3rem;
+}
+.one p{
+    margin: 10px;
+}
+.one button{
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    color: #fff;
+    
+    border: transparent;
+    
+}
+.one button:hover{
+    background-color:rgb(0, 183, 255);
+    border: none;
+
+}
+.forms{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    color: black;
+    height: 500px;
+    width: 250px;
+    border-radius: 10px;
+    
+}
+.fheading{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.forms .bookbtn{
+    background-color:rgb(0, 183, 255);
+    height: 50px;
+}
+.sectionone{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.sectionone h2{
+    font-size: 3rem;
+    margin: 5px;
+}
+.card{
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+    
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+
+}
+
+.cp1{
+    width: 280px;
+    height: 110px;
+    background-color: rgb(0, 183, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.cp2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:280px ;
+    border-radius: 5px;
+    height: 200px;
+   border: 1px solid aquamarine;
+    
+    
+}
+.cp2  ul>li{
+    list-style-type:circle;
+    margin: 2px;
+}
+.cp2 a{
+    
+    margin: 5px;
+    color: rgb(36, 36, 255);
+    text-decoration: none;
+    position: relative;
+    right: 80px;
+    
+}
+.feedback{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c9c9c9;
+
+}
+.feedback h2{
+    padding-top: 50px;
+    font-size: 3rem;
+    margin: 5px;
+}
+.fcard{
+    display: flex;
+    margin: 50px;
+    gap: 20px;
+}
+
+.feedcard{
+    width: 220px;
+    height: 150px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.carddoc img{
+    margin: 10px;
+}
+.faq{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part1 h1{
+ padding-top: 50px;
+    font-size: 3rem;
+    margin: 5px;
+}
+.box{
+    margin: 50px;
+    
+}
+.box1{
+    margin: 40px;
+    width: 200px;
+    height: 100px;
+}
+.box1 .m{
+    font-weight: bold;
+}
+.arrow{
+    position: relative;
+    left: 10px;
+}
+.brwo{
+    justify-self: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.pricing{
+    height: 1000px;
+    
+}
+.heding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heding h1{
+    padding-top: 50px;
+    font-size: 3rem;
+    margin: 5px;
+    
+}
+
+.free{
+    margin: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 600px;
+    border: 2px solid rgb(36, 193, 255);
+    border-radius: 10px;
+}
+.free h2{
+    font-weight: bold;
+}
+.preice{
+    font-size: 1rem;
+    color: aqua;
+}
+.free li{
+    list-style: none;
+    margin: 5px;
+    padding-bottom: 2px;
+}
+.free button{
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(78, 205, 255);
+}
+.cardsection{
+    display: flex;
+    flex-direction: row;
+}
+.secondcard{
+    background-color: #231f35;
+    color: #fff;
+    width: 300px;
+    height: 700px;
+    
+}
+.fone{
+height: 200px;
+background-color: rgb(24, 24, 24);
+color: #fff;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.btnbg{
+    width: 200px;
+    height: 40px;
+}
+.fbutton{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(31, 83, 255);
+}
+
+.ftwo{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    height: 300px;
+}
+ .hed{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px;
+}
+.fimg{
+    margin: 5px;
+}
+.hed > ul>li{
+    list-style: none;
+}
+
+.lastsection{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b0b0b0;
+    height: 100px;
+}
